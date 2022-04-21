@@ -1,0 +1,64 @@
+/* ZMIENNE CSS */
+body {
+    --color-primary: rebeccapurple;
+    --color-primary-light: rgb(198, 163, 233);
+    --color-secondary: antiquewhite;
+    --color-secondary-dark: rgb(231, 207, 176);
+    --color-accent: goldenrod;
+    --color-btn: rgb(89, 119, 252);
+    --color-background: rgb(31, 31, 31);
+    --color-background-light: rgb(36, 36, 36);
+    --color-background-box: rgba(250, 235, 215, 0.041);
+}
+
+
+/* STYLE RE-UŻYWALNE */
+a:active {
+    color: var(--color-primary);
+}
+
+.section-title {
+    font-size: 2em;
+    margin: 140px 0 60px 0;
+    font-style: italic;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    height: 8px;
+    width: 100px;
+    margin-top: 20px;
+    background: var(--color-accent);
+    transform: skew(-12deg);
+}
+
+.section-description {
+    font-size: 1.4em;
+    margin-bottom: 90px;
+    font-weight: 300;
+    width: 70%;
+    line-height: 28px;
+}
+
+.section-margin {
+    margin: 20px 40px;
+}
+
+.btn {
+    color: white;
+    font-weight: 500;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 58px;
+    display: block;
+    height: 58px;
+    width: 300px;
+    border-radius: 29px;
+    background-image: linear-gradient(60deg, var(--color-primary), var(--color-btn));
+    border: none;
+}
+
+.btn:hover {
+    background-image: linear-gradient(-120deg,var(--color-primary), var(--color-btn));
+}
