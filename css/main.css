@@ -76,10 +76,6 @@ body {
     width: 100%;
 }
 
-#header .opis-projektu {
-    color: var(--color-accent);
-}
-
 
 /* STYLOWANIE DLA BANNERA */
 #banner {
@@ -466,30 +462,4 @@ body {
 #contact .btn {
     align-self: center;
     margin-top: 50px;
-}
-
-
-/* STYLOWANIE DLA PODSTRONY "OPIS PROJEKTU" */
-#zaliczenie {
-    width: 100%;
-    height: auto;
-    background-color: var(--color-background-light);
-    padding-bottom: 150px;
-}
-
-#zaliczenie .section-description {
-    margin-bottom: 30px;
-}
-
-#zaliczenie ul li {
-    list-style: square;
-    line-height: 35px;
-}
-
-#zaliczenie strong {
-    font-weight: bold;
-}
-
-#zaliczenie img {
-    margin: 30px 0;
 }
